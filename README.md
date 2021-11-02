@@ -12,7 +12,7 @@
 ## Patterns
 
 - **Strategy:** Evitar if-else / switch-case quando tem várias regras para executar que variam de acordo com um parâmetro
-  - Exemplo: CalculadoraDeImpostos.calcular();
+  - Exemplo: [CalculadoraDeImpostos.calcular();](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/imposto/CalculadoraDeImpostos.java)
 - **Chain of Responsability:**
 - **Template Method:**
 - **State:**
