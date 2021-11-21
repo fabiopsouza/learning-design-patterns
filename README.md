@@ -11,6 +11,8 @@
 
 ## Patterns
 
+# Comportamentais
+
 - **Strategy:** Usado para evitar if-else / switch-case quando tem várias regras para executar que variam de acordo com um parâmetro
   - Exemplo: [CalculadoraDeImpostos.java](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/imposto/CalculadoraDeImpostos.java)
   - Referência: [Strategy](https://refactoring.guru/pt-br/design-patterns/strategy)
@@ -29,3 +31,10 @@
 - **Observer:** Uma classe Publisher tem uma lista de subscribers. A classe publisher notifica os subscribers de um determinado evento para que cada uma tome a sua ação correspondente
 	- Exemplo: [GeraPedidoHandler.java (acoes)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/pedido/GeraPedidoHandler.java)
 	- Referência: [Observer](https://refactoring.guru/pt-br/design-patterns/observer)
+
+# Estruturais
+
+- **Adapter:** Interface com o contrato de funcionalidade de infraestrutura. Classes concretas implementam essa interface para implementar a funcionalidade de modo que facilite a troca da implementação depois caso precise.
+	- Exemplo: [RegistroDeOrcamento.java (HttpAdapter)(https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/orcamento/RegistroDeOrcamento.java)
+	- Referência: [Adapter](https://refactoring.guru/pt-br/design-patterns/adapter)
+
