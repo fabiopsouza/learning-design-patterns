@@ -8,11 +8,16 @@ import br.com.loja.alura.orcamento.Orcamento;
 public class TestesDescontos {
 
 	public static void main(String[] args) {
-		
+
 		Orcamento orcamento = new Orcamento(new BigDecimal("1000"), 6);
+		orcamento.aprovar();
+		orcamento.aplicarDescontoExtra();
+		orcamento.aplicarDescontoExtra();
+		orcamento.aplicarDescontoExtra();
+
 		CalculadoraDeDescontos calculadora = new CalculadoraDeDescontos();
 		BigDecimal imposto = calculadora.calcular(orcamento);
-		
+
 		System.out.println(imposto);
 	}
 }
