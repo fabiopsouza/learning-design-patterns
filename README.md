@@ -43,4 +43,6 @@
 - **Composite:** Permite a composição de objetos diferentes que compartilham um comportamento comum por interface. Isso possibilita que os objetos apesar de diferentes sejam tratados como se fossem o mesmo pelo menos no trecho que são comuns
 	- Exemplo: [TesteComposicao.java (adicionarItem)(https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/TesteComposicao.java)
 	- Referência: [Composite](https://refactoring.guru/pt-br/design-patterns/composite)
-
+- **Facade:** Classe que fornece um método simples e direto, mas que encapsula internamente diverssas chamadas a outras classes. Encapsula a lógica.
+	- Exemplo: [GeraPedidoHandler.java (execute)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/pedido/GeraPedidoHandler.java)
+	- Referência: [Facade](https://refactoring.guru/pt-br/design-patterns/facade)
