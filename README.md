@@ -1,7 +1,7 @@
 # Design Patterns
 
-**Definição:** Soluções comuns para problemas recorrentes ao utilizar orientação a objetos
-**Base:** Livro Design Patterns - Elements of Reusable Object-Oriented Software
+- **Definição:** Soluções comuns para problemas recorrentes ao utilizar orientação a objetos
+- **Base:** Livro Design Patterns - Elements of Reusable Object-Oriented Software
 
 ## Categorias
 
