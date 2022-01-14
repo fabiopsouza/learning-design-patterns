@@ -3,15 +3,15 @@
 - **Definição:** Soluções comuns para problemas recorrentes ao utilizar orientação a objetos
 - **Origem:** Livro Design Patterns - Elements of Reusable Object-Oriented Software
 
-## Categorias
+## Tipos
 
 - **Criacionais:** Criação dos objetos
 - **Estruturais:** Estrutura e composição das classes
 - **Comportamentais:** Métodos, estado e interação entre objetos
 
-## Patterns
+# Patterns
 
-# Comportamentais
+## Comportamentais
 
 - **Strategy:** Usado para evitar if-else / switch-case quando tem várias regras para executar que variam de acordo com um parâmetro
   - Exemplo: [CalculadoraDeImpostos.java](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/imposto/CalculadoraDeImpostos.java)
@@ -32,7 +32,7 @@
 	- Exemplo: [GeraPedidoHandler.java (acoes)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/pedido/GeraPedidoHandler.java)
 	- Referência: [Observer](https://refactoring.guru/pt-br/design-patterns/observer)
 
-# Estruturais
+## Estruturais
 
 - **Adapter:** Interface com o contrato de funcionalidade de infraestrutura. Classes concretas implementam essa interface para implementar a funcionalidade de modo que facilite a troca da implementação depois caso precise.
 	- Exemplo: [RegistroDeOrcamento.java (HttpAdapter)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/orcamento/RegistroDeOrcamento.java)
