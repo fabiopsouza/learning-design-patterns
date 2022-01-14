@@ -1,7 +1,5 @@
 package br.com.loja.alura.pedido;
 
-import br.com.loja.alura.acao.EnviarEmailPedido;
-import br.com.loja.alura.acao.SalvarPedidoBancoDados;
 import br.com.loja.alura.orcamento.ItemOrcamento;
 import br.com.loja.alura.orcamento.Orcamento;
 
