@@ -35,12 +35,17 @@
 # Estruturais
 
 - **Adapter:** Interface com o contrato de funcionalidade de infraestrutura. Classes concretas implementam essa interface para implementar a funcionalidade de modo que facilite a troca da implementação depois caso precise.
-	- Exemplo: [RegistroDeOrcamento.java (HttpAdapter)(https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/orcamento/RegistroDeOrcamento.java)
+	- Exemplo: [RegistroDeOrcamento.java (HttpAdapter)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/orcamento/RegistroDeOrcamento.java)
 	- Referência: [Adapter](https://refactoring.guru/pt-br/design-patterns/adapter)
 - **Decorator:** Uma classe tem um determinado comportamento e você pode atribuir novas classes do mesmo tipo para ir acrescentando mais comportamentos
-	- Exemplo: [Imposto.java (outro)(https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/imposto/Imposto.java)
+	- Exemplo: [Imposto.java (outro)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/imposto/Imposto.java)
 	- Referência: [Decorator](https://refactoring.guru/pt-br/design-patterns/decorator)
 - **Composite:** Permite a composição de objetos diferentes que compartilham um comportamento comum por interface. Isso possibilita que os objetos apesar de diferentes sejam tratados como se fossem o mesmo pelo menos no trecho que são comuns
-	- Exemplo: [TesteComposicao.java (adicionarItem)(https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/TesteComposicao.java)
+	- Exemplo: [TesteComposicao.java (adicionarItem)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/TesteComposicao.java)
 	- Referência: [Composite](https://refactoring.guru/pt-br/design-patterns/composite)
-
+- **Facade:** Classe que fornece um método simples e direto, mas que encapsula internamente diversas chamadas a outras classes. Encapsula a lógica.
+	- Exemplo: [GeraPedidoHandler.java (execute)](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/pedido/GeraPedidoHandler.java)
+	- Referência: [Facade](https://refactoring.guru/pt-br/design-patterns/facade)
+- **Proxy:** Intermediário para a execução de uma ação. Por exemplo, chamada para uma API com encapsulando uma lógica de cache ou validação.
+	- Exemplo: [OrcamentoProxy.java](https://github.com/fabiopsouza/learning-design-patterns/blob/main/loja/src/br/com/loja/alura/orcamento/situacao/OrcamentoProxy.java)
+	- Referência: [Proxy](https://refactoring.guru/pt-br/design-patterns/proxy)
